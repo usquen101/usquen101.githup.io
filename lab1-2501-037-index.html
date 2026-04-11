@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+content="width=device-width,initial-scale=1.0">
+<title>美丽校园-春华</title>
+<style>
+    .img-container{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .img-box{
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+    }
+    .img-box img{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    .img-box img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    body{
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: "微软雅黑",sans-serif;
+    }
+    html{
+        scroll-behavior: 1.8;
+    }
+</style>    
+</head>
+<body>
+<!--1.一级标题：页面题目 -->
+<h1 id="top">美丽校园-春华</h1>
+<h2>作者:胥嘉明 班级:2501 学号:20252200037</h2>
+<!--2.水平线分割二级标题与三级标题-->
+<hr>
+<!--3.快速导航锚点，实现页面跳转-->
+<h3>快速导航</h3>
+<ul>
+    <li><a href="#nature">跳转至自然风光</a></li>
+    <li><a href="#culture">跳转至人文景观</a></li>
+    <li><a href="#gallery">跳转至校园美景</a></li>
+</ul>
+<hr>
+<!--4.三级标题：自然风光-->
+<h3 id="nature">自然风光</h3>
+<p>
+春日的校园，是一幅被春风晕染开的水墨长卷。清晨的薄雾还未完全散去，图书馆前的樱花便已缀满枝头，粉白的花瓣在晨光中泛着温柔的光泽，风一吹，便下起一场浪漫的樱花雨，落在青石板路上，落在学子的肩头，也落在每一个奔赴课堂的青春身影里。沿着樱花大道往前走，人工湖的湖面波光粼粼，岸边的垂柳抽出了嫩黄的新芽，细长的柳条垂在水面上，轻轻拂过涟漪，像是在给湖水梳理着春日的心事。湖里的锦鲤在莲叶间穿梭，偶尔跃出水面，溅起一串晶莹的水珠，惊飞了停在芦苇丛中的白鹭，它展开洁白的羽翼，掠过湖面，飞向远处的湖心岛，留下一道轻盈的弧线。
+</p>
+<p>
+午后的阳光穿过教学楼的玻璃窗，洒在走廊的长椅上，也洒在操场旁的草地上。草坪上的蒲公英顶着毛茸茸的白伞，在风里轻轻摇晃，等待着下一次的远行；二月兰在墙角肆意绽放，紫色的花海连成一片，像是给校园镶上了一条浪漫的花边。操场边的香樟树抽出了新的枝叶，深绿的老叶与嫩绿的新叶交相辉映，在阳光下投下斑驳的光影，学子们在树下背书、聊天、弹吉他，青春的笑声与鸟鸣声交织在一起，成了春日校园里最动听的旋律。傍晚时分，夕阳把天空染成了橘红色，教学楼的轮廓在余晖中变得温柔，归巢的鸟儿掠过天际，校园里的路灯次第亮起，为晚归的学子照亮前行的路，也为这春日的校园，添上了一笔温暖的底色。
+</p>
+<hr>
+<!-- 5.三级标题：人文景观-->
+ <h3 id="culture">人文景观</h3>
+ <!--8.无序列表，列出至少3个人文景观-->
+ <ul>
+    <li>校史馆：承载着学校数十年的办学历史，陈列着历届校友的珍贵的照片与实物，是校园精神的传出之地。</li>
+    <li>图书馆：现代化的建筑与丰富的藏书相结合，是学子们汲取知识、潜心治学的精神殿堂。</li>
+    <li>校训石：镌刻着学校的校训，矗立在校园的入口处，是每一位新生入学是的第一堂课，也是校园文化的象征</li>
+    <li>大学生活动中心：举办各类校园活动、社团演出的场所，是展现学子风采、丰富课余生活的舞台。</li>
+ </ul>
+ <hr>
+ <!--9.图片展示：div容器。宽高220px，左留白50px，3张以上图片横排-->
+ <h3 id="gallery">校园美景</h3>
+ <div class="img-container">
+    <div class="img-box">
+        <img src="images/campus1.jpg"alt="校园樱花大道">
+    </div>
+    <div class="img-box">
+        <img src="images/campus2.jpg"alt="校园人工湖">
+    </div><div class="img-box">
+        <img src="images/campus3.jpg"alt="校园图书馆">
+    </div><div class="img-box">
+        <img src="images/campus4.jpg"alt="校园校训石">
+    </div>
+ </div>
+ <!--10.返回顶部锚点-->
+ <p style="text-align: right;margin-top: 50px;">
+    <a href="#top">返回顶部</a>
+ </p>
+</body>    
+</html>  
